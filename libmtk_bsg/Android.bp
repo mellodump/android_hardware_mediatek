@@ -10,5 +10,5 @@ cc_library_shared {
     recovery_available: true,
     srcs: ["*.c"],
 
-    header_libs: ["generated_kernel_headers"],
+    header_libs: ["qti_kernel_headers"],
 }
